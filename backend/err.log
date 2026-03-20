@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/jayant99acharya/self/promptwars_main/IntentBridge/backend/main.py", line 1, in <module>
+    from fastapi import FastAPI, Depends, HTTPException
+ModuleNotFoundError: No module named 'fastapi'

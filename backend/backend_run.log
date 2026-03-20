@@ -1,0 +1,14 @@
+/Users/jayant99acharya/self/promptwars_main/IntentBridge/backend/gemini_processing.py:1: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+Traceback (most recent call last):
+  File "/Users/jayant99acharya/self/promptwars_main/IntentBridge/backend/main.py", line 9, in <module>
+    models.Base.metadata.create_all(bind=database.engine)
+    ^^^^^^^^^^^
+AttributeError: module 'models' has no attribute 'Base'
